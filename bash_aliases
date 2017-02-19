@@ -18,14 +18,7 @@
   alias vi='vim'
   #alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 
-# update aliases
-  #alias ud='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove && sudo apt-get clean'
-  alias ud='aptupdate.py'
-
 # list user scripts
-  #alias lsc='clear & ls -lAR /usr/local/bin/python --color=auto + ls -lAR /usr/local/bin/bash --color=auto' 
-  alias lsp='clear & ls -lAR /usr/local/bin/python --color=auto | grep .py'
-  alias lsb='clear & ls -lAR /usr/local/bin/bash --color=auto | grep .sh'
-
-# copy python scripts
-  alias cps='sudo find ~/Scripts -name \*.py ! -name \*init* ! -name setup.py ! -name \*test*.py ! -name NAME.py ! -name main.py -exec cp {} /usr/local/bin/python/ \;'
+  alias lsc='clear & ls -lAR /usr/local/bin/ --color=auto' 
+  alias lsp='clear & ls -lAR /usr/local/bin/ --color=auto | grep .py'
+  alias lsb='clear & ls -lAR /usr/local/bin/ --color=auto | grep .sh'
