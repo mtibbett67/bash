@@ -1,5 +1,4 @@
 # enable handy aliases and color support
-  alias dir='dir --color=auto'
   alias egrep='egrep --color=auto'
   alias fgrep='fgrep --color=auto'
   alias grep='grep --color=auto'
@@ -16,7 +15,6 @@
 
 # progam aliases
   alias vi='vim'
-  #alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 
 # list user scripts
   alias lsc='clear & ls -lAR /usr/local/bin/ --color=auto' 
